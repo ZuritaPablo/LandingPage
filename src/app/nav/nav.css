@@ -1,0 +1,19 @@
+header {
+    background:  #a01b3c;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
