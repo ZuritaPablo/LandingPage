@@ -11,5 +11,4 @@ import { Home } from './home/home';
   styleUrl: './app.css'
 })
 export class App {
-  protected title = 'LandingPage';
 }
