@@ -1,0 +1,22 @@
+:root {
+  color-scheme: light dark;
+}
+body {
+  font-family: 'Lato', sans-serif;
+  background: #F1E3D3;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+.negrita {
+  font-weight: bold;
+}
+.cursiva {
+  font-style: italic;
+}
+h1, h2, h3 {
+  font-family: 'Avant Garde', sans-serif;
+  margin: 0.5rem 0;
+}
+
