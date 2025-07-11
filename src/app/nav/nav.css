@@ -1,19 +1,40 @@
 header {
-    background:  #a01b3c;
+    background:  #b31c42ef;
     color: #fff;
-    padding: 1rem;
-    text-align: center;
+    text-align: left;
+    padding-left: 2rem;
+    padding-right: 2rem;
   }
-  
-  nav ul {
-    list-style: none;
-    padding: 0;
+  .titulo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  nav {
     display: flex;
-    justify-content: center;
-    gap: 1.5rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
   }
   
-  nav a {
+  a {
     color: #fff;
     text-decoration: none;
   }
+  a:hover {
+    text-decoration: underline;
+  }
+  @media screen and (max-width: 768px) {
+    nav{
+      flex-direction: column;
+      align-items: center;
+    }
+    
+  }
+  
